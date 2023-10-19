@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/onBoarding1Fragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.StartMenuFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_start_menu">
+        <action
+            android:id="@+id/action_mainFragment_to_matchesFragment"
+            app:destination="@id/matchesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_leaguesFragment"
+            app:destination="@id/leaguesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_favouriteFragment2"
+            app:destination="@id/favouriteFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/matchesFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.MatchesFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_matches">
+        <action
+            android:id="@+id/action_matchesFragment_to_favouriteFragment2"
+            app:destination="@id/favouriteFragment2" />
+        <action
+            android:id="@+id/action_matchesFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leaguesFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.LeaguesFragment"
+        android:label="fragment_leagues"
+        tools:layout="@layout/fragment_leagues">
+        <action
+            android:id="@+id/action_leaguesFragment_to_leagues2Fragment"
+            app:destination="@id/leagues2Fragment" />
+        <action
+            android:id="@+id/action_leaguesFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leagues2Fragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.Leagues2Fragment"
+        android:label="fragment_leagues2"
+        tools:layout="@layout/fragment_leagues2">
+        <argument
+            android:name="leagueItem"
+            app:argType="ganhar.emsfv.hockeyanalytics.model.LeagueMatchesModel" />
+        <action
+            android:id="@+id/action_leagues2Fragment_to_matchInfoFragment"
+            app:destination="@id/matchInfoFragment" />
+        <action
+            android:id="@+id/action_leagues2Fragment_to_favouriteFragment2"
+            app:destination="@id/favouriteFragment2" />
+        <action
+            android:id="@+id/action_leagues2Fragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/matchInfoFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.MatchInfoFragment"
+        android:label="fragment_match_info"
+        tools:layout="@layout/fragment_match_info">
+        <argument
+            android:name="MatchModel"
+            app:argType="ganhar.emsfv.hockeyanalytics.model.MatchModel" />
+        <action
+            android:id="@+id/action_matchInfoFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <action
+            android:id="@+id/action_matchInfoFragment_to_favouriteFragment2"
+            app:destination="@id/favouriteFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news">
+        <action
+            android:id="@+id/action_newsFragment_to_favouriteFragment2"
+            app:destination="@id/favouriteFragment2" />
+        <action
+            android:id="@+id/action_newsFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes">
+        <action
+            android:id="@+id/action_notesFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_favouriteFragment2"
+            app:destination="@id/favouriteFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.addnote.AddNoteFragment"
+        android:label="fragment_add_note"
+        tools:layout="@layout/fragment_add_note" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="NoteModel"
+            app:argType="ganhar.emsfv.hockeyanalytics.model.NoteModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment2"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite">
+        <argument
+            android:name="MatchModel"
+            app:argType="ganhar.emsfv.hockeyanalytics.model.MatchModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding1Fragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.onboarding.OnBoarding1Fragment"
+        android:label="fragment_on_boarding1"
+        tools:layout="@layout/fragment_on_boarding1">
+        <action
+            android:id="@+id/action_onBoarding1Fragment_to_onBoarding2Fragment"
+            app:destination="@id/onBoarding2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding2Fragment"
+        android:name="ganhar.emsfv.hockeyanalytics.presentation.fragments.onboarding.OnBoarding2Fragment"
+        android:label="fragment_on_boarding2"
+        tools:layout="@layout/fragment_on_boarding2">
+        <action
+            android:id="@+id/action_onBoarding2Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

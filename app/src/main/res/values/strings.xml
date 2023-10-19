@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Hockey Analytics</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hockey_analysis">Hockey analysis</string>
+    <string name="games">Games</string>
+    <string name="leagues">Leagues</string>
+    <string name="news">News</string>
+    <string name="notes">Notes</string>
+    <string name="name">Name</string>
+    <string name="nhl">NHL</string>
+    <string name="goals">Goals</string>
+    <string name="shoots">Shoots</string>
+    <string name="scorers">Scorers</string>
+    <string name="description_1">Главный тренер «Торпедо» Игорь Ларионов после контрольного матча с «Дизелем» (2:1) назвал вратаря Максима Соколова примером того, как делается карьера молодого игрока. Также он выразил надежду на то, что клубу удастся отдать голкипера в аренду.
+
+«Что касается молодого вратаря Максима Соколова, то в Воскресенске решение по нему было принято «на ходу». Мы решили дать Алексею Мельничуку паузу после пяти пропущенных шайб. Соколов вышел и отыграл матч без всякого стресса. И сегодня, когда Иван Кульбаков попросил замену, он опять вышел и сыграл очень хорошо. Телефон генерального директора «Торпедо» сейчас просто горячий. Как нам говорили, он четвёртый вратарь в «Чайке», а теперь пять-шесть команд КХЛ хотят видеть его у себя. Это пример, как делается карьера молодого игрока. Когда у тебя есть шанс – ты должен его взять. Соколов вышел, отыграл, и теперь у него есть масса предложений. Надеюсь, мы отдадим его в аренду, где он будет достойно играть», — приводит официальный сайт КХЛ слова Ларионова.</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="cska">https://toplogos.ru/images/logo-hk-cska.png</string>
+    <string name="ak_bars">https://upload.wikimedia.org/wikipedia/ru/thumb/7/75/HC_Ak_Bars_Logo.svg/1200px-HC_Ak_Bars_Logo.svg.png</string>
+    <string name="avangard">https://upload.wikimedia.org/wikipedia/ru/thumb/6/64/HC_Avangard_Logo.svg/800px-HC_Avangard_Logo.svg.png</string>
+    <string name="sibir">https://corefans.ru/images/klub/KHL-SIB.png</string>
+    <string name="barys">https://upload.wikimedia.org/wikipedia/ru/thumb/a/a1/HC_Barys_Logo.svg/1200px-HC_Barys_Logo.svg.png</string>
+    <string name="salavat">https://upload.wikimedia.org/wikipedia/ru/thumb/a/a0/HC_Salavat_Yulaev_Logo.svg/1200px-HC_Salavat_Yulaev_Logo.svg.png</string>
+    <string name="spartak">https://upload.wikimedia.org/wikipedia/ru/thumb/5/57/HC_Spartak_Moscow_Logo_2015.svg/330px-HC_Spartak_Moscow_Logo_2015.svg.png</string>
+    <string name="kunlun">https://upload.wikimedia.org/wikipedia/ru/thumb/3/3a/HC_Kunlun_Red_Star_Logo.svg/330px-HC_Kunlun_Red_Star_Logo.svg.png</string>
+    <string name="avtomobilist">https://upload.wikimedia.org/wikipedia/ru/thumb/a/ae/HC_Avtomobilist_Logo.svg/1200px-HC_Avtomobilist_Logo.svg.png</string>
+    <string name="metallurg">https://upload.wikimedia.org/wikipedia/ru/thumb/0/0e/HC_Metallurg_Magnitogorsk_Logo.svg/330px-HC_Metallurg_Magnitogorsk_Logo.svg.png</string>
+    <string name="nhl_img">https://upload.wikimedia.org/wikipedia/ru/thumb/3/3a/05_NHL_Shield.svg/1200px-05_NHL_Shield.svg.png</string>
+    <string name="tampa_bay_lightning">https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tampa_Bay_Lightning_2011.svg/1200px-Tampa_Bay_Lightning_2011.svg.png</string>
+    <string name="nashville_predators">https://upload.wikimedia.org/wikipedia/ru/6/6b/Nashville_Predators.gif</string>
+    <string name="pittsburgh_penguins">https://upload.wikimedia.org/wikipedia/ru/thumb/3/36/Pittsburgh_penguins_logo.png/800px-Pittsburgh_penguins_logo.png</string>
+    <string name="chicago_blackhawks">https://upload.wikimedia.org/wikipedia/ru/a/ad/Chicago_Blackhawks.gif</string>
+    <string name="vegas_golden_knights">https://upload.wikimedia.org/wikipedia/ru/9/98/Vegas_golden_knights_logo.png</string>
+    <string name="seattle_kraken">https://upload.wikimedia.org/wikipedia/commons/0/05/Seattle_Kraken.png\n</string>
+    <string name="toronto_maple_leafs">https://upload.wikimedia.org/wikipedia/ru/5/5e/Toronto_Maple_Leafs_logo.png</string>
+    <string name="montreal_canadiens">https://upload.wikimedia.org/wikipedia/commons/6/69/Montreal_Canadiens.svg</string>
+    <string name="carolina_hurricanes">https://upload.wikimedia.org/wikipedia/ru/thumb/6/6d/Carolina_Hurricanes.gif/330px-Carolina_Hurricanes.gif</string>
+    <string name="ottawa_senators">https://upload.wikimedia.org/wikipedia/ru/5/5d/Sens_Logo.png</string>
+    <string name="boston_bruins">https://upload.wikimedia.org/wikipedia/ru/3/36/Boston_Bruins.gif</string>
+    <string name="vancouver_canucks">https://upload.wikimedia.org/wikipedia/ru/9/96/Vancouver_Canucks_logo.png</string>
+    <string name="edmonton_oilers">https://upload.wikimedia.org/wikipedia/ru/0/02/Edmonton_oilers_logo.png</string>
+    <string name="los_angeles_kings">https://upload.wikimedia.org/wikipedia/ru/f/fb/LA_Kings_logo.png</string>
+    <string name="colorado_avalanche">https://upload.wikimedia.org/wikipedia/ru/thumb/9/94/Colorado_Avalanche.gif/330px-Colorado_Avalanche.gif</string>
+    <string name="calgary_flames">https://upload.wikimedia.org/wikipedia/ru/b/b5/Calgary_flames_logo.png</string>
+    <string name="winnipeg_jets">https://upload.wikimedia.org/wikipedia/ru/c/c3/Winnipeg_Jets_2011.jpg</string>
+    <string name="buffalo_sabres">https://upload.wikimedia.org/wikipedia/ru/d/d4/Buffalo_Sabres_Logo.png</string>
+    <string name="new_york_rangers">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/New_York_Rangers.svg/1200px-New_York_Rangers.svg.png</string>
+    <string name="khl_img">https://upload.wikimedia.org/wikipedia/ru/f/f0/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%9A%D0%A5%D0%9B.png</string>
+    <string name="lada">https://upload.wikimedia.org/wikipedia/ru/thumb/6/64/HC_Lada_Logo.svg/1200px-HC_Lada_Logo.svg.png</string>
+    <string name="traktor">https://upload.wikimedia.org/wikipedia/ru/thumb/c/c8/Traktor_Chelyabinsk.svg/640px-Traktor_Chelyabinsk.svg.png</string>
+    <string name="neftekhimik">https://upload.wikimedia.org/wikipedia/ru/thumb/5/5d/HC_Neftekhimik.svg/330px-HC_Neftekhimik.svg.png</string>
+    <string name="dynamo_minsk">https://upload.wikimedia.org/wikipedia/ru/thumb/c/cc/HC_Dynamo_Minsk_Logo.svg/1200px-HC_Dynamo_Minsk_Logo.svg.png</string>
+    <string name="severstal">https://upload.wikimedia.org/wikipedia/ru/thumb/a/a1/HC_Severstal_Logo.svg/1200px-HC_Severstal_Logo.svg.png</string>
+    <string name="hc_sochi">https://upload.wikimedia.org/wikipedia/ru/thumb/1/13/HC_Sochi_Logo.svg/1200px-HC_Sochi_Logo.svg.png</string>
+    <string name="vityaz">https://upload.wikimedia.org/wikipedia/ru/thumb/0/0a/HC_Vityaz_Logo.svg/1200px-HC_Vityaz_Logo.svg.png</string>
+    <string name="amur">https://upload.wikimedia.org/wikipedia/ru/thumb/b/b3/HC_Amur_Logo.svg/1200px-HC_Amur_Logo.svg.png</string>
+    <string name="dynamo_moscow">https://upload.wikimedia.org/wikipedia/ru/thumb/2/2b/HC_Dynamo_Moscow_Logo.svg/1200px-HC_Dynamo_Moscow_Logo.svg.png</string>
+    <string name="ska">https://upload.wikimedia.org/wikipedia/ru/thumb/0/05/HC_SKA_Logo.svg/1200px-HC_SKA_Logo.svg.png\n</string>
+    <string name="lhl_img">https://static.wikia.nocookie.net/hockeyquestionmark/images/c/c9/LHL.png/revision/latest?cb=20161126234812</string>
+    <string name="pays_daix_uc">https://upload.wikimedia.org/wikipedia/en/1/1c/Pays_d%27Aix_Universit%C3%A9_handball_club.png</string>
+    <string name="us_creteil_handball">https://upload.wikimedia.org/wikipedia/en/d/d7/US_Cr%C3%A9teil_handball_club.png</string>
+    <string name="chartres_metropole_handball">https://upload.wikimedia.org/wikipedia/fr/thumb/3/3a/Blason_CCMHB_%282%29.jpg/640px-Blason_CCMHB_%282%29.jpg</string>
+    <string name="montpellier_handball">https://upload.wikimedia.org/wikipedia/en/2/26/Montpellier_Agglom%C3%A9ration_Handball.png</string>
+    <string name="dijon_bourgogne">https://upload.wikimedia.org/wikipedia/fr/7/75/Ducs_de_Dijon_2016.png</string>
+    <string name="us_ivry_handball">https://www.hand-ivry.org/wp-content/uploads/2020/06/logo-us-ivry@2x.png</string>
+    <string name="gk_toulouse">https://tbhc.kalisport.com/public/874/upload/theme/kal-theme-logo-header_3.png</string>
+    <string name="usam_nimes">https://upload.wikimedia.org/wikipedia/en/3/32/USAM_N%C3%AEmes_handball_club.png</string>
+    <string name="dunkerque_grand_littoral_handball">https://upload.wikimedia.org/wikipedia/en/0/03/US_Dunkerque_handball_club.png</string>
+    <string name="paris_handball">https://www.sportstrategies.com/wp-content/uploads/2018/12/paris-handball-logo-1909.jpg</string>
+    <string name="chambery_savoie_handball">https://upload.wikimedia.org/wikipedia/en/b/be/Chamb%C3%A9ry_Savoie_handball_club.png</string>
+    <string name="limoges_handball">https://upload.wikimedia.org/wikipedia/en/b/b0/Limoges_Handball.png</string>
+    <string name="grand_rapids_griffins">https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Grand_Rapids_Griffins_logo.svg/1200px-Grand_Rapids_Griffins_logo.svg.png</string>
+    <string name="colorado_eagles">https://team-scaffold.s3.amazonaws.com/img/team_AHL_colorado_eagles-97777a68d2.png</string>
+    <string name="laval_rocket">https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Laval_Rocket_logo.svg/1200px-Laval_Rocket_logo.svg.png</string>
+    <string name="abbotsford_canucks">https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Abbotsford_Canucks_logo.svg/1200px-Abbotsford_Canucks_logo.svg.png</string>
+    <string name="charlotte">https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charlotte_49ers_logo.svg/1628px-Charlotte_49ers_logo.svg.png</string>
+    <string name="wilkes_barre">https://upload.wikimedia.org/wikipedia/commons/e/e8/Wilkes_University_Seal_Blue.png</string>
+    <string name="utica_comets">https://upload.wikimedia.org/wikipedia/en/5/5b/Utica_Comets_%282021%29_logo.svg</string>
+    <string name="syracuse">https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syracuse_Orange_logo.svg/1515px-Syracuse_Orange_logo.svg.png</string>
+    <string name="providence">https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Providence_Friars_logo.svg/1200px-Providence_Friars_logo.svg.png</string>
+    <string name="hartford_wolf_pack">https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Hartford-Wolf-Pack-Logo.svg/1200px-Hartford-Wolf-Pack-Logo.svg.png</string>
+    <string name="rochester">https://cityofrochester.gov/assets/0/117/8589934986/c6791498-270e-40b1-9b81-aca8a510c1b5.jpg?n=8012</string>
+    <string name="bridgeport_islanders">https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Bridgeport_Islanders_logo.svg/800px-Bridgeport_Islanders_logo.svg.png</string>
+    <string name="iowa_wild">https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Iowa_Wild_logo.svg/1200px-Iowa_Wild_logo.svg.png</string>
+    <string name="henderson_silver_knights">https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Henderson_Silver_Knights_logo.svg/1200px-Henderson_Silver_Knights_logo.svg.png</string>
+    <string name="manitoba_moose">https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Manitoba_Moose_logo.svg/1200px-Manitoba_Moose_logo.svg.png</string>
+    <string name="calgary_wranglers">https://upload.wikimedia.org/wikipedia/en/5/56/CalgaryWranglers22.png</string>
+    <string name="ahl_img">https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/%D0%90%D0%A5%D0%9B.jpg/210px-%D0%90%D0%A5%D0%9B.jpg</string>
+    <string name="img1">https://img.championat.com/s/735x490/news/big/q/y/larionov-teper-pyat-shest-ko.jpg</string>
+    <string name="description_2">Известный агент Шуми Бабаев рассказал, что главный тренер «Барыса» Андрей Скабелка в текущее межсезонье гораздо активнее участвовал в комплектовании казахстанского клуба.\n\n«Перед прошлым сезоном Скабелка поздно пришёл в команду и не успел поучаствовать в комплектовании. К тому моменту состав уже был собран. Знаю, что в это межсезонье главный тренер был активно вовлечён в процесс, всех легионеров с ним согласовывали. И, мне кажется, подписаны неплохие иностранцы, но всё будет понятно только в игре.\n\nТем не менее, посмотрев пару матчей «Барыса», осталось ощущение, что собрана неплохая команда. Не хватает, пожалуй, ещё одного-двух легионеров. Не знаю, получится ли их подписать или нет. Полагаю, зависит от того, какие задачи ставятся перед командой», — приводит слова Бабаева Betonmobile.ru.\n\nНапомним, по итогам прошлого регулярного чемпионата КХЛ «Барыс» занял последнее место в Восточной конференции, набрав 61 очко в 68 матчах.</string>
+    <string name="description_3">Главный тренер «Барыса» Андрей Скабелка рассказал, что клуб провёл работу над ошибками и сделал выводы по итогам прошло сезона КХЛ, в котором казахстанский клуб не попал в плей-офф. Специалист подвёл итоги предсезонного турнира в Казани, где «Барыс» проиграл все четыре матча.\n\n«Сделали выводы, работу над ошибками. По конечному результату – да, но по тому, сколько мы привлекли молодых ребят, сколько прошло через команду «Барыс», я думаю, что многие стали сильнее. Я это вижу. Они получили много игрового времени, например, Бекетаев, Шайхмедденов, Кайыржан. Мы заявили большую группу ребят. Возможно, не хватило нам на длинном этапе «скамейки», глубины состава. За пять игр до окончания регулярного чемпионата мы боролись за «восьмёрку». Ещё раз повторюсь, не хватило глубины. Сделали выводы и идём дальше.\n\nИгра легионеров на турнире в Казани? Самоотдача была не низкая, но факт в том, что Райли Барбер приехал за два дня до турнира. Думали, давать ему вообще играть или нет, но, посоветовавшись с ним, решили, что через игры он быстрее наберёт форму. Это касается и Понтуса Оберга, он чуть раньше приехал. Ребята все в стадии подготовки. Турнир в Казани был для нас первым. До него мы не проводили никаких товарищеских матчей, только были серьёзные плодотворные тренировки. Поэтому отработали этот турнир, посмотрели моменты, что-то нам понравилось, что-то нет. Сделали выводы и готовимся к следующим играм», — цитирует Скабелку пресс-служба клуба.\n</string>
+    <string name="img3">https://img.championat.com/s/735x490/news/big/g/j/sdelali-vyvody-i-stali-silnee-skabelka-o-proshlom-sezone-v-ispolnenii-barysa_16923532961383544951.jpg</string>
+    <string name="img2">https://img.championat.com/s/735x490/news/big/s/n/babaev-v-baryse-sobrali-neplohuyu-komandu-skabelka-prinimal-v-etom-aktivnoe-uchastie_16923472571268802670.jpg</string>
+    <string name="description_4">Известный тренер Андрей Назаров прокомментировал четырёхмесячную дисквалификацию голкипера ЦСКА Ивана Федотова, наложенную ИИХФ. Армейский клуб на год получил запрет на международные трансферы.\n\n«На мой взгляд, в ситуации с Иваном Федотовым нужно всем успокоиться. Решение ИИХФ всем было заранее понятно, тут никаких сенсаций. У менеджмента ЦСКА, уверен, есть множество влиятельных легальных рычагов для того, чтобы закрыть вопрос. Как в ЦСКА решат проблему – это исключительно вопрос клуба. Армейцы сами должны выбрать, по какому пути пойдут. Думаю, что клубные представители и юристы во всём тщательно разберутся. Всем нам хочется увидеть Ивана в форме армейской команды, чтобы он радовал своим выступлением в КХЛ российских болельщиков. Тем более что сезон обещает быть интересным и очень напряжённым», – сказал Назаров в беседе с корреспондентом «Чемпионата» Павлом Панышевым.</string>
+    <string name="img4">https://img.championat.com/s/735x490/news/big/u/w/nazarov-o-dele-fedotova-kak-v-cska-reshat-problemu-eto-isklyuchitelno-vopros-kluba_1692364145946018128.jpg</string>
+    <string name="description_5">Главный тренер ЦСКА Сергей Фёдоров поделился ожиданиями от нового сезона Континентальной хоккейной лиги.
+
+«Новый сезон — новые задачи, радует, что ребята отдохнули, радует, что они относятся к нашей подготовке отлично. Нас ждёт упорная борьба. У нас достаточно опыта. Дай бог, к плей‑офф подойдём в хорошей форме.
+
+Мы сделали определённые выводы по плей‑офф. В прошлом сезоне доводили до семи игр серии, ведя 3:1. Сделали выводы, теперь надо дальше расти и понимать, что это значит.
+
+Насколько сложно выиграть третий Кубок Гагарина подряд, что никому не удавалось? Это и сложно, и реально. Всегда у нас задачи высокие. Мы спокойно отталкивается от наших задач, а жизнь покажет наше мастерство. Мы любим выигрывать, любим наших болельщиков. У нас хорошая команда, которую мы сохранили. Мечтать никто не запрещает.
+
+Фавориты сезона? Скажу одно, фаворит — ЦСКА! Жизнь рассудит (улыбается)», — приводит слова Фёдорова «Матч ТВ».
+
+16-й сезон Континентальной хоккейной лиги стартует 1 сентября матчем ЦСКА — «Ак Барс».</string>
+    <string name="img5">https://img.championat.com/s/735x490/news/big/n/g/fyodorov-otvetil-vozmozhno-l.jpg</string>
+    <string name="description_6">Тренер московского «Динамо» Александр Савченков рассказал о своём отношениях к хоккеистам, которые уезжают в Северную Америку молодыми игроками.\n\n«Становится ли обидно, когда столько сил вкладывается в условных Новикова и Тринеева, а потом они в погоне за эфемерными иллюзиями уезжают в Америку, теряют там свои карьеры, а вам всё надо начинать с нуля? Обидно, что ребята не слушают. Не первое же поколение вот так уезжает в Америку. Им показываешь примеры, убеждаешь, рассказываешь. Ну не хотят учиться на чужих ошибках, значит, будут на своих. Уезжают и теряют всё, что заработали.\n\nА с точки зрения нашей работы тут ничего не меняется – работаешь, как работаешь. Да, вкладываешь душу, и обидно, когда это потом не оценивается. Иногда бывает так, что человек вернулся через пять лет и сказал спасибо – это приятно. А когда просто уехал и не позвонил, не сказал, не объяснил – вот это обижает. Ты вкладывал душу, а с тобой даже не попрощались», — сказал Савченков в эксклюзивном интервью обозревателю «Чемпионата» Сергею Емельянову.</string>
+    <string name="img6">https://img.championat.com/s/735x490/news/big/f/l/trener-dinamo-o-eduschih-v-ameriku-ne-hotyat-uchitsya-na-chuzhih-oshibkah-budut-na-svoih_16922962171921924172.jpg</string>
+    <string name="description_7">Тренер московского «Динамо» Александр Савченков сравнил работу хоккеистов и специалистов в КХЛ и НХЛ.\n\n«Может ли российский хоккей перестроиться на американский стандарт подготовки к сезону? Да нам бы хотелось (смеётся). Чтобы у тренеров меньше работы было (улыбается). Но на самом деле такого не будет. КХЛ не придёт к такому подходу, да он нам и не нужен. Это моё мнение.\n\nТам другой образ жизни, другой менталитет. Не будут люди у нас готовиться сами, чтобы прийти готовыми так, как это делают хоккеисты за океаном. Не то вы сравниваете. В моём понимании это просто невозможно.\n\nВ России игроки привыкли жить совсем по-другому, тут жизнь совершенно иная. Даже всё то, что окружает ребят со стороны, включая спортивные объекты и всё остальное – в Америке всё устроено по-другому. Я могу ошибаться, но моё мнение — мы к этому никогда не придём», — сказал Савченков в эксклюзивном интервью обозревателю «Чемпионата» Сергею Емельянову.\n</string>
+    <string name="img7">https://img.championat.com/s/735x490/news/big/n/f/savchenkov-o-sravneniyah-khl-s-amerikoj-i-nhl-igroki-v-rossii-privykli-zhit-po-drugomu_16922945911890831106.jpg</string>
+    <string name="skip">skip</string>
+    <string name="rules">Это информационное приложение про хоккейные лиги. Вы можете отсортировать список матчей так, как вам захочется в отдельный список. Вы можете это сделать с помощью клика на здездочку. Они находятся в списке лиг</string>
+    <string name="rules2">Вы также можете добавлять матчи в свой список как заметки. Затем можете ими управлять - удалять заметки или добавлять еще...</string>
+</resources>

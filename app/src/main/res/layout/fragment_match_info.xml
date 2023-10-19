@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".presentation.fragments.MatchInfoFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_info"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/toolbar_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_backspace" />
+
+        <ImageView
+            android:id="@+id/notes"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_notes" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/ll_match"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_info">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/team1_img"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/test" />
+
+            <TextView
+                android:id="@+id/team1_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_selected"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_star" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="16.07.2022"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="3 : 1"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/team2_img"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/test" />
+
+            <TextView
+                android:id="@+id/team2_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_match">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/team1_scorers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/scorers"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/team2_scorers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
